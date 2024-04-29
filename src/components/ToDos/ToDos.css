@@ -1,0 +1,105 @@
+
+input.checkbox {
+    width: 1.5em;
+    height: 1.5em;
+    accent-color: #f9b17a;
+    border-radius: 5px;
+}
+
+button.submitButton {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9b17a;
+    border: none;
+    color: #2d3250;
+    box-shadow: 1px 2px 4px 1px #ffc293;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+button.filterButton {
+    background-color: #2d3250;
+    border: none;
+    color: #676f9d;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+button.filterButton:hover {
+    transition: .5s;
+    border-bottom: 1px solid #f9b17a;
+}
+
+
+button.submitButton:hover {
+    background-color: #ffc293;
+    transition: .3s;
+}
+
+button.createButton {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #f9b17a;
+    color: #2d3250;
+    border-color: #f9b17a;
+    text-align: center;
+    font-size: 18px;
+}
+
+button.createButton:hover {
+    background-color: #ffc293;
+    transition: .3s;
+}
+
+button#editLink, button#deleteLink {
+    border-radius: 5px;
+    background-color: #676f9d;
+    color: #2d3250;
+    font-size: 20px;
+    margin: 3px;
+}
+
+button#editLink:hover, button#deleteLink:hover {
+    background-color: #2d3250;
+    color: #676f9d;
+    transition: .3s;
+}
+
+article.title {
+    font-family: 'Ultra', serif;
+    color: #fff;
+}
+
+table {
+    opacity: .5;
+    width: 100%;
+    border-radius: 20px;
+}
+
+input.form-control, #catInput {
+    background-color: #424769;
+    border: none;
+    color: white;
+}
+
+input.form-control:focus, #catInput:focus {
+    background-color: #424769;
+    border: none;
+    color: white;
+    border-left: 2px solid #f9b17a;
+    box-shadow: none;
+}
+
+.modal-header {
+    background-color: #2d3250;
+    font-family: 'Ultra', serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.modal-body {
+    background-color: #2d3250;
+    font-family: 'PT Serif', serif;
+
+}

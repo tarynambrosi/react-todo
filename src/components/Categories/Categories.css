@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Coda:wght@400;800&family=Fira+Mono:wght@400;500;700&family=Jacquard+12+Charted&family=Jersey+25&family=Lugrasimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Coda:wght@400;800&family=Fira+Mono:wght@400;500;700&family=Jacquard+12+Charted&family=Jersey+25&family=Lugrasimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap');
+
+button.button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9b17a;
+    color: #2d3250;
+    box-shadow: #f9b17a;
+}
+
+button.createButton {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #f9b17a;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+button.createButton:hover, button.button:hover {
+    background-color: #fff;
+    border: none;
+    transition: .3s;
+}
+
+button#editLink, button#deleteLink {
+    border-radius: 5px;
+    background-color: #676f9d;
+    color: #2d3250;
+}
+
+button#editLink:hover, button#deleteLink:hover {
+    background-color: #E18DB3;
+    color: #7a5e6b;
+    transition: .3s;
+}
+
+article.title {
+    font-family: 'Ultra', serif;
+    color: #7a5e6b;
+}
+
+tbody {
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+}
+
+.categories table {
+    opacity: .5;
+}

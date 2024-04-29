@@ -1,0 +1,54 @@
+span.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 2px solid #fff;
+}
+
+.m-2.text-center.card {
+    background-color: #424769;
+}
+
+.card-header {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+h1.text-center {
+    font-family: 'Ultra', serif;
+    font-size: 32px;
+    color: #f9b17a;
+    text-shadow: 3px 3px 10px #424769;
+}
+
+button.loginButton {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9b17a;
+    border: none;
+    color: #2d3250;
+    box-shadow: 1px 2px 4px 1px #ffc293;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+button.loginButton:hover {
+    background-color: #ffc293;
+    transition: .3s;
+}
+
+button.logoutButton {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2d3250;
+    border: none;
+    color: #676f9d;
+    font-family: 'PT Serif', serif;
+}
+
+button.logoutButton:hover {
+    background-color: #676f9d;
+    color: #2d3250;
+    transition: .3s;
+}

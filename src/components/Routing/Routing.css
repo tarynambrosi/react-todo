@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Coda:wght@400;800&family=Fira+Mono:wght@400;500;700&family=Jacquard+12+Charted&family=Jersey+25&family=Lugrasimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Coda:wght@400;800&family=Fira+Mono:wght@400;500;700&family=Jacquard+12+Charted&family=Jersey+25&family=Lugrasimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap');
+
+.navbar {
+  background-image: linear-gradient(to right, #424769, #2d3250);
+  }
+  
+  #nav {
+    font-family: 'Ultra', serif;
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+#link {
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+#link:hover {
+    color: #f9b17a;
+  }
+  
+  .footer {
+    background-image: radial-gradient(#424769, #2d3250);
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    color: #676f9d;
+  }

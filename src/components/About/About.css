@@ -1,0 +1,22 @@
+.aboutText p{
+    font-family: 'PT Serif', serif;
+    font-size: 24px;
+    text-align: justify;
+    color: #fff;
+    background-color: #424769;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.aboutText h3 {
+    font-family: 'Ultra', serif;
+    color: #f9b17a;
+    text-shadow: 3px 3px 10px #424769;
+    font-size: 35px;
+}
+
+.pic {
+    border-radius: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+}
